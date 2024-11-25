@@ -70,4 +70,6 @@ button:focus-visible {
 
 ul {
     list-style-type: none;
+    padding: 0;
+    text-align: left;
 }
