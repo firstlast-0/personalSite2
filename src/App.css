@@ -18,6 +18,28 @@ nav {
     font-weight: 700;
 }
 
+.contact {
+    position: fixed;
+    bottom: 5%;
+    right: 47%;
+}
+
+.contact .icon {
+    width: 50px;
+}
+
+.contact .icon:hover {
+    filter: brightness(0) saturate(100%) invert(34%) sepia(44%) saturate(2819%) hue-rotate(224deg) brightness(93%) contrast(104%);
+}
+
+.about {
+    font-size: 2rem;
+}
+
+.about > h1 {    
+    font-size: 6.5rem;
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 400px);
@@ -30,16 +52,29 @@ nav {
     display: flex;
     flex-direction: column;
     border: 4px solid rgba(255, 255, 255, 0.05);
+    padding: 10px 0;
 }
 
 .project > div:nth-child(2) {
-    flex-grow: 1;
-    
+    flex-grow: 1;    
+}
+
+.links {
+    margin: 0 auto;
+}
+
+.links > div {
+    display: flex;
+    gap: 5px;
 }
 
 .icon {
     width: 25px;
     filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(91%) contrast(88%);
+}
+
+.footnote {
+    opacity: 0.6;
 }
 
 h1, .title {
@@ -55,4 +90,33 @@ h1 {
 .title {
     font-weight: 100;
     color: gray;
+}
+
+.languages {
+    display: flex;
+    gap: 15px;
+}
+
+.languages li {
+    flex-grow: 1;
+}
+
+.languages, .tools {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.stack li {
+    border-bottom: 4px solid rgba(255, 255, 255, 0.05);
+    border-right: 4px solid rgba(255, 255, 255, 0.05);
+}
+
+.stack strong {    
+    font-size: 1.3rem;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);   
+    gap: 7px;
 }
