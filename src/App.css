@@ -13,7 +13,7 @@ nav {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.initial {    
+.initial {
     font-size: 2rem;
     font-weight: 700;
 }
@@ -63,9 +63,15 @@ nav {
     margin: 0 auto;
 }
 
-.links > div {
+.links > a {
     display: flex;
     gap: 5px;
+    padding: 5px;
+}
+
+.links > a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #646cff;
 }
 
 .icon {

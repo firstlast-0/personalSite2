@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
-import github from '/github.svg';
-import linkedin from '/linkedin.svg';
+import Nav from './nav.jsx';
+import Contact from './contact';
 
 function Skills() {
     return (
@@ -28,25 +27,14 @@ function Skills() {
                         <li>Git</li>                                             
                         <li>EJS</li>
                         <li>Webpack</li>
-                        <li>VS Code</li>
-                        
+                        <li>VS Code</li>                        
                     </ul>
                 </div>
 
             </div>
 
-            <nav>
-                <ul>
-                    <li><Link to="/"><span className="initial">A</span>BOUT</Link></li>
-                    <li><Link to="/projects"><span className="initial">P</span>ROJECTS</Link></li>
-                    <li><Link to="/skills"><span className="initial">S</span>KILLS</Link></li>
-                </ul>
-            </nav>
-
-            <div className="contact">
-                <a href="https://linkedin.com/in/vin-fajardo" target='_blank' rel="noreferrer"><img src={linkedin} className="icon" alt="linkedin" /></a>
-                <a href="https://github.com/firstlast-0" target='_blank' rel="noreferrer"><img src={github} className="icon" alt="github" /></a>                
-            </div>
+            <Nav></Nav>
+            <Contact></Contact>        
         </>
     );
 }
