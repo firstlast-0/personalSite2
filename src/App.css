@@ -13,6 +13,14 @@ nav {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+nav > ul {
+    margin: 0;
+}
+
+.selected {
+    opacity: .5;
+}
+
 .initial {
     font-size: 2rem;
     font-weight: 700;
