@@ -6,7 +6,7 @@ import github from '/github.svg';
 function Projects() {
     return (
         <>            
-            <span className="title">MY</span><h1>PROJECTS</h1>
+            <span className="title">FEATURED</span><h1>PROJECTS</h1>
             <div className="projects">
 
                 <div className="project">
@@ -24,6 +24,20 @@ function Projects() {
                 </div>
 
                 <div className="project">
+                    <strong>E-commerce Website</strong>
+                    <div>E-commerce type React app that has a shopping cart feature, uses data from an external API</div>
+                
+                    <div className="links">
+                        <a href="https://ec-ws.netlify.app" target='_blank'>
+                            <img src={eye} className="icon" alt="eye" />Live Preview
+                        </a>
+                        <a href="https://github.com/firstlast-0/shopping-cart" target='_blank'>
+                            <img src={github} className="icon" alt="github" />Github Repo
+                        </a>
+                    </div>
+                </div>                
+
+                <div className="project">
                     <strong>Admin Dashboard</strong>
                     <div>Frontend focused project showcasing my CSS capabilities</div>
 
@@ -35,22 +49,7 @@ function Projects() {
                             <img src={github} className="icon" alt="github" />Github Repo
                         </a>
                     </div>
-                </div>                
-
-                {/* <div className="project">
-                    <strong>Shopping Cart</strong>
-                    <div>This React app simulates the shopping cart feature on e-commerce websites</div>
-                    <div className="links">
-                        <div>
-                            <img src={eye} className="icon" alt="eye" />
-                            <a href="https://fancy-hamster-3ca8ca.netlify.app/" target='_blank'> Live Preview</a>
-                        </div>
-                        <div>
-                            <img src={github} className="icon" alt="github" />
-                            <a href="https://github.com/firstlast-0/shopping-cart" target='_blank'> Github Repo</a>
-                        </div>
-                    </div>
-                </div> */}
+                </div>
 
                 <div className="project">
                     <strong>Inventory App</strong>
@@ -79,18 +78,18 @@ function Projects() {
                     </div>
                 </div>
 
-                <div className="project">
+                {/* <div className="project">
                     <strong>Memory Card</strong>
                     <div>This React app which utilizes an external API allows users to play a memory game</div>
                     <div className="links">
-                        <a href="https://quiet-pixie-4e5b8b.netlify.app/" target='_blank'>
+                        <a href="https://mem-card.netlify.app/" target='_blank'>
                             <img src={eye} className="icon" alt="eye" />Live Preview
                         </a>
                         <a href="https://github.com/firstlast-0/memoryCard" target='_blank'>
                             <img src={github} className="icon" alt="github" />Github Repo
                         </a>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="project">
                     <strong>Etch-a-Sketch</strong>
