@@ -57,12 +57,12 @@ nav a:hover::after {
 }
 
 .contact .icon {
-    width: 50px;
+    width: 40px;
 }
 
 .contact .icon:hover {
     animation-name: grow;
-    animation-duration: 300ms;
+    animation-duration: 150ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     filter: brightness(0) saturate(100%) invert(34%) sepia(44%) saturate(2819%) hue-rotate(224deg) brightness(93%) contrast(104%);
@@ -148,6 +148,9 @@ nav a:hover::after {
 
 .icon {
     width: 25px;
+}
+
+.grayFilter {
     filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(42deg) brightness(91%) contrast(88%);
 }
 

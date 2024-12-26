@@ -15,10 +15,10 @@ function Projects() {
                 
                     <div className="links">
                         <a href="https://odin-book-1uek.onrender.com/" target='_blank'>
-                            <img src={eye} className="icon" alt="eye" />Live Preview
+                            <img src={eye} className="icon grayFilter" alt="eye" />Live Preview
                         </a>
                         <a href="https://github.com/firstlast-0/odin-book" target='_blank'>
-                            <img src={github} className="icon" alt="github" />Github Repo
+                            <img src={github} className="icon grayFilter" alt="github" />Github Repo
                         </a>
                     </div>
                 </div>
@@ -29,10 +29,10 @@ function Projects() {
                 
                     <div className="links">
                         <a href="https://ec-ws.netlify.app" target='_blank'>
-                            <img src={eye} className="icon" alt="eye" />Live Preview
+                            <img src={eye} className="icon grayFilter" alt="eye" />Live Preview
                         </a>
                         <a href="https://github.com/firstlast-0/shopping-cart" target='_blank'>
-                            <img src={github} className="icon" alt="github" />Github Repo
+                            <img src={github} className="icon grayFilter" alt="github" />Github Repo
                         </a>
                     </div>
                 </div>                
@@ -43,10 +43,10 @@ function Projects() {
 
                     <div className="links">
                         <a href="https://firstlast-0.github.io/dashboard/" target='_blank'>
-                            <img src={eye} className="icon" alt="eye" />Live Preview
+                            <img src={eye} className="icon grayFilter" alt="eye" />Live Preview
                         </a>
                         <a href="https://github.com/firstlast-0/dashboard" target='_blank'>
-                            <img src={github} className="icon" alt="github" />Github Repo
+                            <img src={github} className="icon grayFilter" alt="github" />Github Repo
                         </a>
                     </div>
                 </div>
@@ -57,10 +57,10 @@ function Projects() {
                     
                     <div className="links">
                         <a href="https://inventory-app-0rel.onrender.com/" target='_blank'>
-                            <img src={eye} className="icon" alt="eye" />Live Preview
+                            <img src={eye} className="icon grayFilter" alt="eye" />Live Preview
                         </a>
                         <a href="https://github.com/firstlast-0/inventory_app" target='_blank'>
-                            <img src={github} className="icon" alt="github" />Github Repo
+                            <img src={github} className="icon grayFilter" alt="github" />Github Repo
                         </a>
                     </div>
                 </div>
@@ -70,10 +70,10 @@ function Projects() {
                     <div>This Express app showcases my ability to give users different abilities and permissions</div>
                     <div className="links">
                         <a href="https://members-only-3pau.onrender.com/" target='_blank'>
-                            <img src={eye} className="icon" alt="eye" />Live Preview
+                            <img src={eye} className="icon grayFilter" alt="eye" />Live Preview
                         </a>
                         <a href="https://github.com/firstlast-0/members-only" target='_blank'>
-                            <img src={github} className="icon" alt="github" />Github Repo
+                            <img src={github} className="icon grayFilter" alt="github" />Github Repo
                         </a>
                     </div>
                 </div>
@@ -97,10 +97,10 @@ function Projects() {
                     
                     <div className="links">
                         <a href="https://firstlast-0.github.io/odin-sketch/" target='_blank'>
-                            <img src={eye} className="icon" alt="eye" />Live Preview
+                            <img src={eye} className="icon grayFilter" alt="eye" />Live Preview
                         </a>
                         <a href="https://github.com/firstlast-0/odin-sketch" target='_blank'>
-                            <img src={github} className="icon" alt="github" />Github Repo
+                            <img src={github} className="icon grayFilter" alt="github" />Github Repo
                         </a>
                     </div>
                 </div>
