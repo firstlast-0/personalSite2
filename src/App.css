@@ -45,6 +45,10 @@ nav a:hover::after {
     opacity: .5;
 }
 
+.selected  a {
+    cursor: not-allowed;
+}
+
 .initial {
     font-size: 2rem;
     font-weight: 700;
@@ -100,11 +104,11 @@ nav a:hover::after {
 .odin::after {
     content: '';
     position: absolute;
-    height: 1px;
+    height: 2px;
     left: 0;
     bottom: -5px;
     width: 100%;
-    background: white;
+    background: gray;
     transition: width .3s;
 }
 
