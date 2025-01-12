@@ -33,12 +33,16 @@ nav a::after {
     left: 0;
     bottom: -5px;
     width: 0;
-    background: gray;
+    background: linear-gradient(to right, gray, #242424);
     transition: width .3s;
 }
 
 nav a:hover::after {
     width: 100%;
+}
+
+.selected a:hover::after {
+    width: 0%;
 }
 
 .selected {
@@ -108,7 +112,7 @@ nav a:hover::after {
     left: 0;
     bottom: -5px;
     width: 100%;
-    background: gray;
+    background: linear-gradient(to right, gray, #242424);
     transition: width .3s;
 }
 
