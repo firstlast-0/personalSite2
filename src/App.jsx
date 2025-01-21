@@ -7,7 +7,7 @@ function App() {
     return (
         <>                       
             <div className="about">
-                <h1>hello, world!</h1>
+                <h1>hello, <span>world</span>!</h1>
                 <br />
                 My name is <strong>Vincent</strong> - a <strong>Fullstack Web Developer</strong> based in the Philippines.
                 <br />

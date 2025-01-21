@@ -33,7 +33,7 @@ nav a::after {
     left: 0;
     bottom: -5px;
     width: 0;
-    background: linear-gradient(to right, gray, #242424);
+    background: linear-gradient(to right, gray, white);
     transition: width .3s;
 }
 
@@ -95,6 +95,13 @@ nav a:hover::after {
 .about > h1 {    
     font-size: 6.5rem;
 }
+
+/* h1 > span {
+    background-image: url('/world.png');
+    background-position: center;
+    background-clip: text;
+    color: transparent;
+} */
 
 .odin {
     color: rgb(227, 178, 97);
