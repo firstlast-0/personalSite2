@@ -20,9 +20,9 @@ function Nav() {
     return (
         <nav>
             <ul>
-                <li ref={aboutRef}><Link to="/"><div data-label="About"></div></Link></li>
-                <li ref={projectsRef}><Link to="/projects"><div data-label="Projects"></div></Link></li>
-                <li ref={skillsRef}><Link to="/skills"><div data-label="Skills"></div></Link></li>
+                <li ref={aboutRef}><Link to="/"><div data-label="ABOUT"></div></Link></li>
+                <li ref={projectsRef}><Link to="/projects"><div data-label="PROJECTS"></div></Link></li>
+                <li ref={skillsRef}><Link to="/skills"><div data-label="SKILLS"></div></Link></li>
             </ul>
         </nav>
     );
